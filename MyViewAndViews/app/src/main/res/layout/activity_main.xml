@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/r80"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="@dimen/activity_horizontal_layout"
+                android:layout_marginLeft="@dimen/activity_horizontal_layout"
+                android:background="#4D000000"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="Pesawat R80"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/white"
+                android:drawableStart="@drawable/ic_flight_white_24dp"
+                android:drawablePadding="4dp"/>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_layout"
+            android:layout_marginLeft="@dimen/activity_horizontal_layout"
+            android:layout_marginTop="@dimen/activity_vertical_layout"
+            android:layout_marginBottom="@dimen/activity_vertical_layout"
+            android:text="@string/name"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_layout"
+            android:layout_marginRight="@dimen/activity_horizontal_layout"
+            android:layout_marginLeft="@dimen/activity_horizontal_layout"
+            android:text="Presiden ke-3 Indonesia"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/content_text"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_layout"
+            android:layout_marginRight="@dimen/activity_horizontal_layout"
+            android:layout_marginTop="@dimen/activity_vertical_layout"
+            android:layout_marginBottom="@dimen/activity_vertical_layout">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp" >
+                    <TextView
+                       android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="Nama"
+                        android:textColor="@android:color/black"
+                        android:layout_marginRight="@dimen/activity_horizontal_layout"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/name"
+                        android:textSize="14sp"
+                        android:layout_weight="1"
+                        android:textColor="@android:color/black"
+                        />
+                </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="TTL"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="@dimen/activity_horizontal_layout"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/TTL"
+                    android:textSize="14sp"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="Jabatan"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="@dimen/activity_horizontal_layout"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jabatan"
+                    android:textSize="14sp"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="Penemuan"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="@dimen/activity_horizontal_layout"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/penemuan"
+                    android:textSize="14sp"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_layout"
+            android:layout_marginRight="@dimen/activity_horizontal_layout"
+            android:text="@string/donasi" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_layout"
+            android:layout_marginLeft="@dimen/activity_horizontal_layout"
+            android:layout_marginBottom="@dimen/activity_vertical_layout">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:id="@+id/r80"
+                android:src="@drawable/logo"
+                android:layout_marginRight="@dimen/activity_horizontal_layout"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/r80"
+                android:layout_toRightOf="@id/r80"
+                android:text="@string/ajakan"/>
+        </RelativeLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_layout"
+            android:layout_marginRight="@dimen/activity_horizontal_layout"
+            android:layout_marginLeft="@dimen/activity_horizontal_layout"
+            android:text="Donasi"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+
+
+
+
+

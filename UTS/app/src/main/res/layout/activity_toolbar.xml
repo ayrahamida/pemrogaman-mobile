@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/coral"
+    tools:context=".Toolbar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HELLO !!"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@drawable/profilmin"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Busyra Nur Hamida"
+        android:textColor="@color/yellow"
+        android:background="@color/darkGrey"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="syra1904@gmail.com"
+        android:textSize="13sp"
+        android:background="@color/yellow"
+        android:textColor="@color/colorMaroon"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="350px"
+    android:padding="10dp"
+    android:id="@+id/cardview_item">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200px"
+            android:layout_height="300px"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/img_hmj_list"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="15px"
+            android:layout_marginTop="25px"
+            android:layout_marginBottom="25px">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Hmj"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:id="@+id/name_hmj_list"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/desc_hmj_list"
+                android:text="Description"
+                android:textSize="14sp"
+                android:maxLines="3"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".DetailListHmj">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450px"
+        android:orientation="horizontal">
+        
+        <ImageView
+            android:id="@+id/img_detail"
+            android:layout_width="300px"
+            android:layout_height="450px" />
+        
+        <TextView
+            android:id="@+id/nama_hmj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama HMJ"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/desc_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="desc"
+        android:textSize="16sp"
+        android:layout_marginTop="16sp"/>
+
+</LinearLayout>
